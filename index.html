@@ -6,5 +6,73 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="flex">
+      <nav class="nav-bar">
+          <h2 class="Logo">Maryam <span>Ihsan</span> </h2>
+          <ul class="nav-items">
+             <li class="nav-item"><a href="#">home</a></li>
+             <li class="nav-item"><a href="#">contact</a></li>
+             <li class="nav-item"><a href="#">about us</a></li>
+             <li class="nav-item"><a href="#">service</a></li>
+          </ul>
+         <button type="submit" class="login">login</button>
+         <div id="hidden-nav" style="display: none;">
+          <ul class="nav-items">
+              <li class="nav-item"><a href="#">home</a></li>
+              <li class="nav-item"><a href="#">contact</a></li>
+              <li class="nav-item"><a href="#">about us</a></li>
+              <li class="nav-item"><a href="#">service</a></li>
+           </ul>
+          <button type="submit" class="login">login</button>
+         </div>
+         <i id="icon" class="fa-solid fa-bars fa-3x"  onclick="change()"></i>
+         <i id="x-icon" class="fa-solid fa-x fa-3x" style="display: none;" onclick="review()" ></i>
+      </nav>
+      </div>
+  <main>
+      
+     <div class="container">
+      <div class="cards">
+        <div class="card">
+         <img src="https://img.freepik.com/free-photo/face-recognition-personal-identification-collage_23-2150165604.jpg?t=st=1709907312~exp=1709910912~hmac=56ef4c70b588e5c6eaa4a31d58d0b51bc8b4b3624faa273c4b5821a98d97853e&w=740" alt="">
+          <div class="content">
+              <h4>title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nemo iusto, nam laborum aperiam quo provident perspiciatis nesciunt.</p>
+          </div>
+          <button type="button" class="btn">More</button>
+        </div>
+        <div class="card">
+         <img src="https://img.freepik.com/free-photo/facial-recognition-collage-concept_23-2150038882.jpg?t=st=1709907858~exp=1709911458~hmac=395599aa85edc949b0fe0e3c7329f498174d0a28ce862bbc5a9a598180ee1101&w=740" alt="">
+          <div class="content">
+              <h4>title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nemo iusto, nam laborum aperiam quo provident perspiciatis nesciunt.</p>
+          </div>
+          <button type="button">More</button>
+        </div>
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/asian-girl-pressing-digital-screen-futuristic-technology_53876-119718.jpg?t=st=1709907894~exp=1709911494~hmac=aef576775c858c37395fe91621c2a84755daa1cef092d339641140168098cbf1&w=740" alt="">
+          <div class="content">
+              <h4>title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nemo iusto, nam laborum aperiam quo provident perspiciatis nesciunt.</p>
+          </div>
+          <button type="button">More</button>
+        </div>
+        <div class="card">
+          <img src="https://img.freepik.com/free-photo/social-network-connection-with-woman-video-chatting-smiling_53876-98446.jpg?t=st=1709907923~exp=1709911523~hmac=95af5e4e10b1cdd89c37d50d08f68c0f21fe865a65981e2a20f428820a1e3d64&w=740" alt="">
+          <div class="content">
+              <h4>title</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nemo iusto, nam laborum aperiam quo provident perspiciatis nesciunt.</p>
+          </div>
+          <button type="button">More</button>
+        </div>
+      </div>
+     </div>
+  </main>
+  <footer>
+      <h1>copy rigth</h1>
+      <h3>For MaryamIhsan</h3>
+  </footer>
+  <script src="index.js"></script>
+  </body>
 </html>
